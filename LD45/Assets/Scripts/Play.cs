@@ -11,16 +11,6 @@ public class Play : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void Aboutgame()
-    {
-        gameObject.enabled = true;
-    }
-
-    public void hideabout()
-    {
-        gameObject.enabled = false;
-    }
-
     public void QuitGame()
     {
         Debug.Log("QUIT!");
