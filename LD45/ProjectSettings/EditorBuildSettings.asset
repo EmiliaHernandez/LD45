@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/catsanctuary.unity
     guid: 670d5bb4168ff6b42bff82409b3cf1d0
+  - enabled: 1
+    path: Assets/Scenes/catPicks.unity
+    guid: c1186fe097bcbe945b9fddf8078cb271
   m_configObjects: {}
