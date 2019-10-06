@@ -20,4 +20,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/catPicks.unity
     guid: c1186fe097bcbe945b9fddf8078cb271
+  - enabled: 1
+    path: Assets/Scenes/Bookstore.unity
+    guid: 3f619ccc5bb0a3946b3164859286bbcc
+  - enabled: 1
+    path: Assets/Scenes/bookPicks.unity
+    guid: 685cf1ad81d095d41883867bca2ae0c3
+  - enabled: 1
+    path: Assets/Scenes/pawnshop.unity
+    guid: 6e284befcbeceef438e62a52f0d3d4a5
+  - enabled: 1
+    path: Assets/Scenes/pawnSelect.unity
+    guid: 0517953b588f33a488efa356c61a5f40
   m_configObjects: {}
