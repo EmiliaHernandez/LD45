@@ -258,13 +258,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125833378}
-  m_LocalRotation: {x: -0.0069574025, y: 0.0070373993, z: -0.71110237, w: 0.70301884}
-  m_LocalPosition: {x: 1.63, y: 4.83, z: -0.01}
+  m_LocalRotation: {x: -0.00989577, y: 0.00006452758, z: -0.006520372, w: 0.9999298}
+  m_LocalPosition: {x: 1.6300002, y: 4.83, z: -0.01}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1888791468}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0.013, y: 1.1340001, z: -90.65501}
+  m_LocalEulerAnglesHint: {x: -1.1340001, y: 0.015000001, z: -0.74700004}
 --- !u!212 &125833380
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -560,13 +560,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358075345}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7043308, w: 0.7098718}
-  m_LocalPosition: {x: 1.65, y: 4.84, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.010989, w: 0.9999397}
+  m_LocalPosition: {x: 1.6499997, y: 4.84, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1888791468}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.551}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.2590001}
 --- !u!212 &358075347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -663,6 +663,9 @@ GameObject:
   - component: {fileID: 521579158}
   - component: {fileID: 521579157}
   - component: {fileID: 521579156}
+  - component: {fileID: 521579161}
+  - component: {fileID: 521579160}
+  - component: {fileID: 521579164}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -748,10 +751,11 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 521579121}
+  - {fileID: 521579139}
   selectedCommands:
-  - {fileID: 521579135}
-  variables: []
+  - {fileID: 521579156}
+  variables:
+  - {fileID: 521579161}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1045,7 +1049,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 13
+  itemId: 21
   blockName: Highcat ACTIVATED!
   description: 
   eventHandler: {fileID: 521579136}
@@ -1091,7 +1095,9 @@ MonoBehaviour:
   eventHandler: {fileID: 521579138}
   commandList:
   - {fileID: 521579156}
+  - {fileID: 521579164}
   - {fileID: 521579157}
+  - {fileID: 521579160}
 --- !u!114 &521579140
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1127,7 +1133,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 13
+  itemId: 22
   blockName: catonback ACTIVATED!
   description: 
   eventHandler: {fileID: 521579140}
@@ -1167,7 +1173,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 13
+  itemId: 23
   blockName: Sleepycat ACTIVATED!
   description: 
   eventHandler: {fileID: 521579142}
@@ -1207,7 +1213,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 13
+  itemId: 25
   blockName: fatfacecat ACTIVATED!
   description: 
   eventHandler: {fileID: 521579144}
@@ -1247,7 +1253,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 13
+  itemId: 24
   blockName: supalongcat ACTIVATED!
   description: 
   eventHandler: {fileID: 521579146}
@@ -1287,7 +1293,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 13
+  itemId: 26
   blockName: gigilookincat ACTIVATED!
   description: 
   eventHandler: {fileID: 521579148}
@@ -1327,7 +1333,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 13
+  itemId: 27
   blockName: tongueoutcat ACTIVATED!
   description: 
   eventHandler: {fileID: 521579150}
@@ -1367,7 +1373,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 13
+  itemId: 28
   blockName: rightdoorcat ACTIVATED!
   description: 
   eventHandler: {fileID: 521579152}
@@ -1407,7 +1413,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 13
+  itemId: 29
   blockName: pawondoor ACTIVATED!
   description: 
   eventHandler: {fileID: 521579154}
@@ -1459,7 +1465,7 @@ MonoBehaviour:
     floatVal: 0.1
   _targetColor:
     colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
+    colorVal: {r: 0.75294125, g: 0.75294125, b: 0.75294125, a: 0}
   waitUntilFinished: 1
   durationOLD: 0
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
@@ -1503,6 +1509,103 @@ MonoBehaviour:
     booleanVal: 1
   affectChildren: 1
   visibleOLD: 0
+--- !u!114 &521579160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521579119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  variable: {fileID: 521579161}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &521579161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521579119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: catCount
+  value: 0
+--- !u!114 &521579164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521579119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 30
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &535088498
 GameObject:
   m_ObjectHideFlags: 0
@@ -3215,15 +3318,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888791466}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7078329, w: 0.70638}
-  m_LocalPosition: {x: 6.17, y: -3.91, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.00038537502, w: 0.99999994}
+  m_LocalPosition: {x: -7.28, y: 1.51, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 358075346}
   - {fileID: 125833379}
   m_Father: {fileID: 0}
   m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.118004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.044000003}
 --- !u!1 &1944560925
 GameObject:
   m_ObjectHideFlags: 0
